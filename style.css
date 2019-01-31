@@ -1,0 +1,53 @@
+body {
+    -webkit-animation: animate_bg 5s;
+    animation: animate_bg 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+@keyframes animate_bg {
+    0%   {background:hotpink;}
+    20%  {background:LawnGreen;}
+    40% {background:orangered;}
+    60% {background:orchid;}
+    80% {background:dodgerblue;}
+    100% {background:springgreen;}
+}
+
+@-webkit-keyframes animate_bg {
+  0%   {background:hotpink;}
+  20%  {background:LawnGreen;}
+  40% {background:orangered;}
+  60% {background:orchid;}
+  80% {background:dodgerblue;}
+  100% {background:springgreen;}
+}
+
+.title {
+  color: yellow;
+  font-size: 8em;
+  text-transform: uppercase;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+#header {
+  padding-top: 10px;
+  height: 240px;
+}
+
+.subtitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  white-space: nowrap;
+
+}
+
+.blank {
+  height: 60px;
+}
